@@ -1,0 +1,120 @@
+.main-part-container {
+    text-align: center;
+    margin: 50px 0px;
+  }
+  
+  .success-stories-title {
+    font-family: cursive;
+    font-size: 36px;
+    margin-bottom: 20px; /* Add space below the text */
+    color: green; /* Green color */
+  }
+  
+  .every-success-journey, .weve-encountered {
+    font-weight: bold;
+    font-size: 64px;
+    color: black;
+    margin-bottom: 20px; /* Add space below the text */
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .photo-container {
+    position: relative;
+    overflow:visible
+  }
+  
+  .photo {
+    height: 400px;
+    width: 260px;
+  }
+  
+  .component-box {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: black;
+  }
+
+  .white-box-1{
+    top: 10%;
+    left: -10%;
+    background-color: white;
+    color: black;
+  }
+  
+  .white-box {
+    background-color: white;
+    color: black;
+    top: 70%;
+    left: -10%;
+  }
+  
+  .tube-shape {
+    border-radius: 20px;
+  }
+  
+  .dark-green-box {
+    position: absolute;
+    background-color: darkgreen;
+    right: -50%;
+    top: 90%;
+    width: 150px;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+  
+  .text-content {
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .carousels {
+    display: flex;
+    padding: 10px 0px 100px;
+  }
+  
+  .carousel-item {
+    display: block;
+    width:15px;
+    height: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: gray;
+    transition: background-color 0.3s;
+  }
+
+  .bright-green{
+    background-color: darkgreen;
+  }
+  
+  .carousel-item:hover {
+    background-color: lightgreen;
+  }
+  
+  .explore-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .explore-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Padding for the next question section */
+  .next-question-section {
+    padding: 50px 0;
+  }

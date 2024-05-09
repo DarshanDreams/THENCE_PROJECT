@@ -1,0 +1,26 @@
+/* Success.css */
+.success-container {
+    text-align: center;
+    margin-top: 50px;
+    position: relative; /* Set position to relative */
+    color: green;
+    
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: 100px; /* Adjust the height of the logo as needed */
+    position: absolute; /* Set position to absolute */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+  }
+  
+  .success-heading {
+    color: green; /* Green color for success heading */
+  }
+  
+  .redirect-message {
+    color: grey; /* Grey color for redirect message */
+    margin-top: 220px; /* Add space between the paragraphs */
+  }
+  

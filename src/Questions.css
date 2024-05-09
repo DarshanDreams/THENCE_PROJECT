@@ -1,0 +1,61 @@
+/* Questions.css */
+.questions-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5; /* Light grey background */
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.header-container {
+  width: 30%; /* Adjust the width as needed */
+}
+
+.header-text {
+  margin-bottom: 20px;
+}
+
+.mind-text {
+  font-family: cursive;
+  margin: 0;
+  color: grey; /* Light grey color */
+  font-size: 16px; /* Adjust the font size as needed */
+  margin-left: 50px;
+}
+
+.ask-text {
+  cursor: pointer;
+  font-weight: bold; /* Make the text bold */
+  font-size: 28px; /* Make the text larger */
+  margin-left: 50px;
+}
+
+.question-box {
+  width: 60%; /* Adjust the width as needed */
+}
+
+.question {
+  margin-top: 20px;
+}
+
+.question-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question-title span {
+  font-size: 24px;
+}
+
+.answer {
+  margin-top: 10px;
+}
+
+hr {
+  margin-top: 20px;
+  border: none;
+  border-top: 1px solid grey; /* Light grey color */
+}

@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Adjusted width */
+    height: 30px; /* Adjusted height */
+    margin-right: 100px; /* Adjusted margin from right */
+  }
+  
+  .right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button.black {
+    background-color: black;
+    color: white;
+  }
+  
+  .button:hover {
+    background-color: darkgrey;
+  }
